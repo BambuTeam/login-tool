@@ -8,12 +8,12 @@ export default () => (
       width="100%"
       height="100%"
     />
-    <img className="sizecarousel-color1"
+    <img className="sizecarousel-color2"
       
       width="100%"
       height="100%"
     />
-    <img className="sizecarousel-color1"
+    <img className="sizecarousel-color3"
       
       width="100%"
       height="100%"

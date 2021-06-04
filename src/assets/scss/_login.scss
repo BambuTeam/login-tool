@@ -1,16 +1,17 @@
 .form-login{
   position: fixed;
-  top: 10vh;
+  top: 30vh;
   left: 5vw;
-  background-color: #fff;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background: url('../../img/patt-logo.svg'),#fefefe;
   width: 430px;
-  
   z-index: 10000;
   padding: 30px;
   border: 1px solid #fff;
-  border-radius: 10px;
-  -webkit-box-shadow: -5px 3px 28px 3px rgba(255,206,7,0.46); 
-box-shadow: -5px 3px 28px 3px rgba(255,206,7,0.46);
+  border-radius: 30px;
+  -webkit-box-shadow: -5px 3px 28px 3px rgba(0, 0, 0, 0.829); 
+box-shadow: -5px 3px 28px 3px rgba(15, 15, 15, 0.829);
 
   &__encabezado{
     position:relative;
@@ -22,17 +23,18 @@ box-shadow: -5px 3px 28px 3px rgba(255,206,7,0.46);
   
     }
     h1{
-      color: #ffce07;
+      color: #212121;
     }
     h2{
       color: #1d285a;
     }
     p{
       margin-bottom: 30px !important;
-      font-family: 'Goya-Web';
-      color: #1d285a;
+      color: #212121;
       text-align: left;
       font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
     }
   }
   &__inputs{
@@ -42,11 +44,13 @@ box-shadow: -5px 3px 28px 3px rgba(255,206,7,0.46);
     
     input{
       margin-bottom:30px;
-      background-color: #1d285a;
-      color: #fff;
-      border: 0.5px solid #1d285a;
-      border-radius: 20px;
+      background-color: #1a1a1a;
+      color: #fefefe;
+      border: 0.5px solid #8f2325;
+      border-radius: 5px;
       padding: 15px 20px;
+      font-size: 15px;
+      font-weight: bold;
     }
   }
   &__submit{
@@ -54,21 +58,20 @@ box-shadow: -5px 3px 28px 3px rgba(255,206,7,0.46);
     text-align: right;
 
     button{
-      color: #1d285a;
+      color: #fefefe;
       
       p{
-        padding: 13px 10px 2px 10px;
+        padding: 5px;
         font-family: 'Goya-Bold';
         font-size: 15px;
-        margin-bottom: 0px;
+       
       }
-        padding: 5px 20px;
+       
         border-radius: 5px;
         text-transform: uppercase;
         cursor: pointer;
-        
-        background: #f8e20b;
-        border: 3px solid#f8e20b;
+        background: #212121;
+        border: 1px solid#fefefe;
         border-radius: 5px;
         -webkit-transition: all .9s ease;
         transition: all .9s ease;
@@ -76,9 +79,9 @@ box-shadow: -5px 3px 28px 3px rgba(255,206,7,0.46);
         transform: translate(0, 0);
         
         &:hover{
-          background: #1d285a;
+          background: #dd363a;
           color: #FFF;
-          border: 3px solid #1d285a;
+          border: 3px solid #212121;
           -webkit-transition: all .9s ease;
           transition: all .9s ease;
         
