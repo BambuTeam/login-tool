@@ -1,0 +1,28 @@
+.sizecarousel-color1  {
+   
+        
+        height: 100vh !important;
+        width: 100vw !important;
+        background-size: cover !important;
+        animation: gradient 5s ease infinite;
+        background:
+        url('../../img/patt.svg'),
+    linear-gradient(45deg, #f00018 0%, hsla(352, 96%, 45%, 0) 70%),
+    linear-gradient(135deg, #cc6e03 10%, hsla(253, 95%, 42%, 0) 80%),
+    linear-gradient(225deg, #ad0112 10%, hsla(179, 91%, 45%, 0) 80%),
+    linear-gradient(315deg, #74010d 100%, hsla(119, 96%, 49%, 0) 70%),;
+
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        200% {
+            background-position: 0% 50%;
+        }
+    
+}
+}
