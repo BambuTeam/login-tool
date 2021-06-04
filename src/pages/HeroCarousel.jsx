@@ -1,6 +1,7 @@
 import React from "react";
 import HeroCarousel from "react-hero-carousel";
 
+
 export default () => (
   <HeroCarousel interval={8000} >
     <img className="sizecarousel-color1"
@@ -18,4 +19,5 @@ export default () => (
       height="100%"
     />
   </HeroCarousel>
+  
 );
