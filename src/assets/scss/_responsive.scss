@@ -1,26 +1,27 @@
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 400px) { 
+@media only screen and (max-width: 600px) { 
+    
     .form-login{
-        max-width: 70%;
-        margin-left: 15px;
+        max-width: 75%;
+        margin-left: 0px;
         margin-right: auto;
     }
 
     .Top-Bar{
         img{
-            max-width: 50%;
+            max-width: 40%;
         }
     }
 }
 
 // Medium devices (tablets, 768px and up.)
-@media (min-width: 768px) {  }
+/* @media (min-width: 768px) {  } */
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+/* @media (min-width: 992px) {  } */
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }
+/* @media (min-width: 1200px) {  } */
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {  }
+/* @media (min-width: 1400px) {  } */
