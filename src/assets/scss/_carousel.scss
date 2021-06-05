@@ -4,25 +4,44 @@
         height: 100vh !important;
         width: 100vw !important;
         background-size: cover !important;
-        animation: gradient 5s ease infinite;
         background:
         url('../../img/patt.svg'),
+        url('../../img/slide1.jpg'),
+
     linear-gradient(45deg, #f00018 0%, hsla(352, 96%, 45%, 0) 70%),
     linear-gradient(135deg, #cc6e03 10%, hsla(253, 95%, 42%, 0) 80%),
     linear-gradient(225deg, #ad0112 10%, hsla(179, 91%, 45%, 0) 80%),
     linear-gradient(315deg, #74010d 100%, hsla(119, 96%, 49%, 0) 70%),;
-
-
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        200% {
-            background-position: 0% 50%;
-        }
-    
 }
+
+.sizecarousel-color2  {
+   
+        
+    height: 100vh !important;
+    width: 100vw !important;
+    background-size: cover !important;
+    background:
+    url('../../img/patt1.svg'),
+    url('../../img/slide2.jpg'),
+
+linear-gradient(45deg, #707070 0%, hsla(352, 96%, 45%, 0) 70%),
+linear-gradient(135deg, #363636 10%, hsla(253, 95%, 42%, 0) 80%),
+linear-gradient(225deg, #2e2e2e 10%, hsla(179, 91%, 45%, 0) 80%),
+linear-gradient(315deg, #1a1a1a 100%, hsla(119, 96%, 49%, 0) 70%),;
+}
+
+.sizecarousel-color3  {
+   
+        
+    height: 100vh !important;
+    width: 100vw !important;
+    background-size: cover !important;
+    background:
+    url('../../img/patt3.svg'),
+    url('../../img/slide3.jpg'),
+
+linear-gradient(45deg, #0065a8 0%, hsla(352, 96%, 45%, 0) 70%),
+linear-gradient(135deg, #0042bd 10%, hsla(253, 95%, 42%, 0) 80%),
+linear-gradient(225deg, #00115efd 10%, hsla(179, 91%, 45%, 0) 80%),
+linear-gradient(315deg, #010050 100%, hsla(119, 96%, 49%, 0) 70%),;
 }
