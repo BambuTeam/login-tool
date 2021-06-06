@@ -4,7 +4,7 @@
   left: 5vw;
   background-size: cover !important;
   background-repeat: no-repeat;
-  background: url('../../img/patt-logo.svg'),#fefefe;
+  background: url('../../img/patt-logo.svg'),#212121;
   width: 430px;
   z-index: 10000;
   padding: 30px;
@@ -23,14 +23,14 @@ box-shadow: -5px 3px 28px 3px rgba(15, 15, 15, 0.829);
   
     }
     h1{
-      color: #212121;
+      color: #fefefe;
     }
     h2{
       color: #1d285a;
     }
     p{
       margin-bottom: 30px !important;
-      color: #212121;
+      color: #fefefe;
       text-align: left;
       font-size: 20px;
       font-weight: bold;
@@ -41,16 +41,23 @@ box-shadow: -5px 3px 28px 3px rgba(15, 15, 15, 0.829);
     position: relative;
     display:flex;
     flex-flow: column nowrap;
+
+    ::placeholder{
+      color: #fefefe86;
+      
+
+    }
     
     input{
       margin-bottom:30px;
-      background-color: #1a1a1a;
+      background-color: #00183667;
       color: #fefefe;
-      border: 0.5px solid #8f2325;
-      border-radius: 5px;
+      border: 1.5px solid #fefefe;
+      border-radius: 2px;
       padding: 15px 20px;
       font-size: 15px;
       font-weight: bold;
+      box-shadow: 0 8px 6px -6px black;
     }
   }
   &__submit{
@@ -61,16 +68,17 @@ box-shadow: -5px 3px 28px 3px rgba(15, 15, 15, 0.829);
       color: #fefefe;
       
       p{
-        padding: 5px;
-        font-family: 'Goya-Bold';
+        padding: 1px;
+        font-weight: bolder;
         font-size: 15px;
+        padding: 10px;
        
       }
        
         border-radius: 5px;
         text-transform: uppercase;
         cursor: pointer;
-        background: #212121;
+        background: #00183667;
         border: 1px solid#fefefe;
         -webkit-transition: all .9s ease;
         transition: all .9s ease;
@@ -80,7 +88,7 @@ box-shadow: -5px 3px 28px 3px rgba(15, 15, 15, 0.829);
         &:hover{
           background: #dd363a;
           color: #FFF;
-          border: 3px solid #212121;
+          border: 3px solid #ffffff;
           -webkit-transition: all .9s ease;
           transition: all .9s ease;
         
